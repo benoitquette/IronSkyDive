@@ -1,1 +1,1 @@
-[a link](https://benoitquette/github.io/IronSkyDive)
+[Site on GH Pages](https://benoitquette.github.io/IronSkyDive/)
