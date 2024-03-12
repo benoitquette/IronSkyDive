@@ -32,6 +32,8 @@ h2 {
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
+    line-height: 4px;
+    color: white
 }
 
 h3 {
@@ -71,6 +73,7 @@ header {
     background-size: cover;
     height: 650px;
     padding-top: 50px;
+    position: relative
 }
 
 header h2 {
@@ -79,6 +82,9 @@ header h2 {
 
 .quote {
     font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
 }
 
 .dark-background {
@@ -101,7 +107,8 @@ header h2 {
     font-size: 2em;
     letter-spacing: 0.5px;
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
 }
 
 .service-box {
@@ -155,6 +162,9 @@ header h2 {
     text-align: center;
     padding: 40px 100px 40px 100px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .address {
@@ -176,7 +186,9 @@ header h2 {
 .nav-bar-ul {
     width: 1200px;
     margin: 0 auto;
-    padding: 0
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly
 }
 
 .nav-bar-ul li {
@@ -203,4 +215,44 @@ td {
 .schedule-table td {
     padding: 5px 10px 5px 10px;
     text-align: center;
+}
+
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+
+
+#structure>div {
+    /* these styles are for divs that are 
+       direct children of section with id structure */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#team>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team>div>article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-frame {
+    height: 375px;
+    width: 60%;
 }
